@@ -1,0 +1,15 @@
+
+h1,p,hr{
+  margin-left:50px;
+}
+#heading {
+  color: #f3f4f5;
+  text-align: left;
+  
+}
+.read-the-docs {
+  color: #888;
+}
+#bold{
+  font-weight: bold;
+}
