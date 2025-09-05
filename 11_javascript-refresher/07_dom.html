@@ -1,0 +1,16 @@
+<button id="btn">Hello World</button>
+<p id="p"></p>
+<script>
+    const button = document.getElementById("btn");
+    const pargraph = document.getElementById("p");
+
+    setTimeout(function() {
+        pargraph.textContent = "This message appears after 2 seconds";
+    }, 2000);
+
+    button.addEventListener("click", function() {
+        prompt("What is your favorite color?");
+        button.style.backgroundColor = "Blue";
+    });
+</script>
+
