@@ -1,2 +1,6 @@
 Line 1
 Line 2
+
+
+Realization: I realized that the commit message or history of the 3rd line was erased and the "Line 3" that should be in this file was also erased.
+
