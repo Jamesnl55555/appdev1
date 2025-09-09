@@ -1,0 +1,1 @@
+Realization: I noticed that the commit history in the feature branch along with its files was added to the main history and folder.
