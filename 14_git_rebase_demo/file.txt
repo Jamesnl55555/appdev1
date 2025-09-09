@@ -1,0 +1,1 @@
+Realization: I noticed that when I rebased main to the feature brach, all files of main were copied to feature brach while main branch stayed the same. The commit history also shows that I am still at the feature branch and not on the main branch. 
