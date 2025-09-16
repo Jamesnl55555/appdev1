@@ -4,7 +4,7 @@ function Component1(){
 return(
 <><h1>HELLO WORLD</h1></>
 )}
-{/* let num1= "Hello"; */}
+let num1= "Hello";
 
 function Component2(){
 return(
@@ -30,7 +30,7 @@ function App() {
      <Component2/>
      <div><p> This is a markup</p></div>
      <h1 style={{color: "red"}}> This text is styled with color red </h1>
-     {/*<h1>This is a data of num1 variable: {num1}</h1>*/}
+     <h1>This is a data of num1 variable: {num1}</h1>
     </>
   )
 }
