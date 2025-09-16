@@ -13,14 +13,13 @@ return(
 <Component1/>
 </>
 )}
-{/*
+
 if(true){
 num1="Hi";
 }
 else{
 num1="Low";
 }
-*/}
 function App() {
   return (
     <>
