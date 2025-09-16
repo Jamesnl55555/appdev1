@@ -2,6 +2,7 @@ import './App.css'
 import {useState} from "react";
 
 function Component1(){
+
 return(
 <><h1>HELLO WORLD</h1></>
 )}
@@ -31,6 +32,9 @@ function App() {
 const showAlert = () => {
 alert("Boom alert");
 };
+function DataReceiver(data){
+return <p>{data.message}</p>
+}
 return (
     <>
      <Component1/>
@@ -43,6 +47,7 @@ return (
      <h1>rendering list</h1>
      <DisplayList/>
      <button onClick={showAlert}>Click to alert</button>
+     <DataReceiver message="The data went through" />
     </>
   )
 }
