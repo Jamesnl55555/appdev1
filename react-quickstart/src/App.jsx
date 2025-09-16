@@ -1,4 +1,5 @@
 import './App.css'
+import {useState} from "react";
 
 function Component1(){
 return(
@@ -27,7 +28,10 @@ else{
 num1="Low";
 }
 function App() {
-  return (
+const showAlert = () => {
+alert("Boom alert");
+};
+return (
     <>
      <Component1/>
      <h1>=====================</h1>
@@ -38,6 +42,7 @@ function App() {
      <h1>This is a data of num1 variable: {num1}</h1>
      <h1>rendering list</h1>
      <DisplayList/>
+     <button onClick={showAlert}>Click to alert</button>
     </>
   )
 }
