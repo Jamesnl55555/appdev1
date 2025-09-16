@@ -28,6 +28,7 @@ function App() {
      <h1>=====================</h1>
      <h1>Below is component 2</h1>
      <Component2/>
+     <div><p> This is a markup</p></div>
      {/*<h1>This is a data of num1 variable: {num1}</h1>*/}
     </>
   )
