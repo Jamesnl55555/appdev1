@@ -1,0 +1,4 @@
+Realization: I noticed that when I use Macro commit and then reset, The commit history was gone and all the files I made was also gone.
+Meanwhile Micro commits of each file does secure all the files from being erased in one go because we comitted each file and added our modifications in github commit history.
+
+
