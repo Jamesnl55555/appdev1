@@ -1,8 +1,8 @@
-export function Utils(person, size = 's'){
+export function Utils(person){
     return (
     'https://i.imgur.com/' +
     person.imageId +
-    size +
-    '.jpg'
-  );
+    's.jpg'
+    );
+
 }
