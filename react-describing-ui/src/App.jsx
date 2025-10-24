@@ -1,26 +1,16 @@
-import { people } from "./utilities/Data";
-import { Utils } from "./utilities/Utils";
+function Cup({ guest }) {
+  return <h2>Tea cup for guest #{guest}</h2>;
+}
 
 function App() {
-   const listItems = people.map(person =>
-    <li key={person.id}>
-      <img
-        src={Utils(person)}
-        alt={person.name}
-      />
-      <p>
-        <b>{person.name}:</b>
-        {' ' + person.profession + ' '}
-        known for {person.accomplishment}
-      </p>
-    </li>
-  );
   return (
-    <article>
-      <h1>Scientists</h1>
-      <ul>{listItems}</ul>
-    </article>
+    <>
+      <Cup guest={1} />
+      <Cup guest={2} />
+      <Cup guest={3} />
+    </>
   );
+
 
 }
 
